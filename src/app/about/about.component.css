@@ -1,0 +1,19 @@
+.descParagraph, li
+{
+    font-size: x-large;
+}
+
+a
+{
+    color: white;
+}
+
+.externalSourceList
+{
+    list-style-type: none;
+}
+
+.externalSourceListImg
+{
+    width: 35px;
+}

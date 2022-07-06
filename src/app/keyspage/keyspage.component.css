@@ -1,0 +1,63 @@
+h4, h5
+{
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.mobileTd
+{
+    display: none;
+}
+
+a
+{
+    color: unset;
+}
+
+@media screen and (max-width: 1200px){
+
+    .keysTable
+    {
+        table-layout: fixed;
+        width: 100% !important;
+    }
+
+    .desktopTd
+    {
+        display: none;
+    }
+
+    .mobileTd
+    {
+        display: table-cell;
+        border: 1px solid rgb(70,70,70)
+    }
+
+    #currentPageNumber, #maxPageNum
+    {
+        font-size: medium;
+    }
+
+    .tableWrapper
+    {
+        width: 90% !important  ;
+    }
+}
+
+@media screen and (max-width: 988px){
+    #currentPageNumber, #maxPageNum
+    {
+        font-size: small;
+    }
+
+    .mobileTd
+    {
+        word-wrap: break-word;
+    }
+
+    .tableRow
+    {
+        width: 70%;
+        word-wrap: break-word;
+    }
+}

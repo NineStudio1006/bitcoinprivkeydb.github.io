@@ -1,0 +1,30 @@
+
+ion-icon {
+    color: blue;
+  }
+#priceValue, #percentageChangeValue
+{
+    font-size: x-large;
+}
+
+@media screen and (max-width: 768px)
+{
+    #priceInner
+    {
+        flex-direction: column;
+    }
+
+    #priceValue, #percentageChangeValue
+    {
+        font-size: medium;
+    }
+}
+
+
+@media screen and (max-width: 375px)
+{
+    #priceValue, #percentageChangeValue
+    {
+        font-size: small !important;
+    }
+}
